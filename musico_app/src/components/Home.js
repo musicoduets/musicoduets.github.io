@@ -41,6 +41,9 @@ function Home() {
                     lalalala
                 </p>
             </section>
+            <footer>
+                <p>&copy; 2024 Musico. All rights reserved.</p>
+            </footer>
         </div>
     );
 }
