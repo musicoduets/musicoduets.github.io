@@ -1,0 +1,40 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf0e6;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.footer-text {
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.insta img {
+    width: 30px;
+    height: 30px;
+}
+
+.insta :hover {
+    color: #fff;
+    border-radius: 5px;
+}
+
+.github img {
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+}
+
+.github :hover {
+    color: #fff;
+    border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: #faf0e6;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
