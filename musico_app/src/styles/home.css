@@ -42,3 +42,15 @@ footer {
     padding: 10px 0;
     position: relative;
 }
+
+.github img {
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+}
+
+.github :hover {
+    color: #fff;
+    border-radius: 5px;
+    transform: scale(1.1);
+}

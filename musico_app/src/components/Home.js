@@ -1,5 +1,7 @@
 import React from "react";
+import github from "../images/github.png";
 import "../styles/home.css";
+import Contact from "./Contact";
 
 function Home() {
     return (
@@ -35,14 +37,20 @@ function Home() {
             </section>
             <section id="contact">
                 <h2>
-                    Contact
+                    Leave us a message! We reply within 24 hours.
                 </h2>
-                <p>
-                    lalalala
-                </p>
+                <Contact />
             </section>
             <footer>
-                <p>&copy; 2024 Musico. All rights reserved.</p>
+                <p>&copy; 2024 Musico. Website coded and built by Aimee Co. All rights reserved.</p>
+                <a
+                href="https://github.com/P-Newspaper/p-Newspaper"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github"
+                >
+                    <img src={github} alt="Github" />
+                </a>
             </footer>
         </div>
     );
