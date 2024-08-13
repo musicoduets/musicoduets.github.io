@@ -2,6 +2,7 @@ import React from "react";
 import github from "../images/github.png";
 import "../styles/home.css";
 import Contact from "./Contact";
+import Services from "./Services";
 
 function Home() {
     return (
@@ -23,9 +24,7 @@ function Home() {
                 <h2>
                     Services
                 </h2>
-                <p>
-                    lalalala
-                </p>
+                <Services />
             </section>
             <section id="booking">
                 <h2>
