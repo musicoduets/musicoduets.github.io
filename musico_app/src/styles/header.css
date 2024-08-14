@@ -37,6 +37,17 @@
     font-size: 18px;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-links a {
     color: black;
     text-decoration: none;

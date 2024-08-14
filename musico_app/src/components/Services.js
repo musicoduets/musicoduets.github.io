@@ -5,6 +5,8 @@ import cello from '../images/cello.jpg';
 const services = [
     { id: 1, title: "Service 1", image: cello },
     { id: 2, title: "Service 2", image: cello },
+    { id: 3, title: "Service 3", image: cello },
+    { id: 4, title: "Service 4", image: cello },
 ];
 
 function Services() {

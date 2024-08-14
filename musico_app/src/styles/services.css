@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    width: 820px;
+    max-width: 1200px;
     height: 500px;
     display: flex;
     gap: 10px;
@@ -8,18 +8,21 @@
 }
 
 .card {
+    flex-basis: 10%;
     min-width: 70px;
     height: 100%;
     border-radius: 30px;
     display: flex;
     align-items: flex-end;
     flex-grow: 1;
+    flex-shrink: 1;
     position: relative;
-    transition: flex-grow 0.5s ease;
+    transition: flex-grow 0.5s ease, flex-basis 0.5s ease;
 }
 
 .card:hover {
-    flex-grow: 7;
+    flex-basis: 40%;
+    flex-grow: 5;
 }
 
 .background {

@@ -43,7 +43,7 @@ function Home() {
             <footer>
                 <p>&copy; 2024 Musico. Website coded and built by Aimee Co. All rights reserved.</p>
                 <a
-                href="https://github.com/P-Newspaper/p-Newspaper"
+                href="https://github.com/aimeekco/musico"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="github"
