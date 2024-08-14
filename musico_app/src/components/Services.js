@@ -1,12 +1,15 @@
 import React from 'react';
 import '../styles/services.css';
-import cello from '../images/cello.jpg';
+import flower1 from '../images/flower1.jpg';
+import flower2 from '../images/flower2.jpg';
+import flower3 from '../images/flower3.avif';
+import flower4 from '../images/flower4.webp';
 
 const services = [
-    { id: 1, title: "Service 1", image: cello },
-    { id: 2, title: "Service 2", image: cello },
-    { id: 3, title: "Service 3", image: cello },
-    { id: 4, title: "Service 4", image: cello },
+    { id: 1, title: "Weddings", image: flower1 },
+    { id: 2, title: "Memorials", image: flower4 },
+    { id: 3, title: "Birthdays", image: flower3 },
+    { id: 4, title: "Other events", image: flower2 },
 ];
 
 function Services() {
