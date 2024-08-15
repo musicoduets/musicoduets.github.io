@@ -12,7 +12,7 @@ function Home() {
                     Welcome to musico
                 </h1>
             </section>
-            <section id="about" data-coor="white">
+            <section id="about" data-color="white">
                 <h2>
                     About Us
                 </h2>
@@ -35,9 +35,6 @@ function Home() {
                 </p>
             </section>
             <section id="contact" data-color="#faf0e6">
-                <h2>
-                    Leave us a message! We reply within 24 hours.
-                </h2>
                 <Contact />
             </section>
             <footer>

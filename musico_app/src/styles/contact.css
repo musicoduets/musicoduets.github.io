@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -7,9 +14,9 @@
     background-color: white;
     border-radius: 20px;
     width: 60%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form h2 {
@@ -33,10 +40,17 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.contact-form button-container {
-    display:flex;
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.button-container {
+    display: flex;
     justify-content: flex-end;
     width: 100%;
     margin-top: 10px;

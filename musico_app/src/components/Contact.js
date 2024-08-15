@@ -23,7 +23,7 @@ function Contact() {
 
     return (
         <div className="contact-form">
-          <h2>Contact Us</h2>
+          <h2>Contact us! We reply within 24 hours.</h2>
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="user_name" required />

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/header.css";
 
 function Header() {
-  const [headerColor, setHeaderColor] = useState("#d2b690");
+  const [headerColor, setHeaderColor] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
