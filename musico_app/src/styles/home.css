@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+#home {
+    background-image: url('../images/background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 body {
     background-color: #faf0e6;
     font-family: 'Montserrat', sans-serif;
@@ -39,7 +47,9 @@ section:nth-child(even) {
 }
 
 h1 {
-    justify-content: center;
+    translate: -75% -90%;
+    font-size: 50px;
+    color: black;
 }
 
 footer {

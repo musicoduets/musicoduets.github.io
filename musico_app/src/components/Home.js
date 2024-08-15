@@ -7,12 +7,12 @@ import Services from "./Services";
 function Home() {
     return (
         <div className="home">
-            <section id="home">
+            <section id="home" data-color="">
                 <h1>
                     Welcome to musico
                 </h1>
             </section>
-            <section id="about">
+            <section id="about" data-coor="white">
                 <h2>
                     About Us
                 </h2>
@@ -20,13 +20,13 @@ function Home() {
                     lalalala
                 </p>
             </section>
-            <section id="services">
+            <section id="services" data-color="#faf0e6">
                 <h2>
                     Services
                 </h2>
                 <Services />
             </section>
-            <section id="booking">
+            <section id="booking" data-color="white">
                 <h2>
                     Booking
                 </h2>
@@ -34,7 +34,7 @@ function Home() {
                     lalalala
                 </p>
             </section>
-            <section id="contact">
+            <section id="contact" data-color="#faf0e6">
                 <h2>
                     Leave us a message! We reply within 24 hours.
                 </h2>

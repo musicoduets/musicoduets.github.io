@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #faf0e6;
     color: black;
     padding: 20px 40px;
     position: fixed;
@@ -58,7 +57,7 @@
 }
 
 .header-links a:hover {
-    background-color: #CFB595;
+    background-color: #aa9173;
     color: #fff;
     border-radius: 30px;
 }
