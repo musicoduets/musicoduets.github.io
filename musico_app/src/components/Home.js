@@ -3,6 +3,7 @@ import github from "../images/github.png";
 import "../styles/home.css";
 import Contact from "./Contact";
 import Services from "./Services";
+import Booking from "./Booking";
 
 function Home() {
     return (
@@ -27,12 +28,7 @@ function Home() {
                 <Services />
             </section>
             <section id="booking" data-color="white">
-                <h2>
-                    Booking
-                </h2>
-                <p>
-                    lalalala
-                </p>
+                <Booking />
             </section>
             <section id="contact" data-color="#faf0e6">
                 <Contact />
