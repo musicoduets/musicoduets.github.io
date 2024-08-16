@@ -3,7 +3,7 @@ import '../styles/booking.css';
 import cashIcon from '../images/cash-icon.jpg';
 import checkIcon from '../images/check-icon.jpg';
 import zelleIcon from '../images/zelle-icon.png';
-import venmoIcon from '../images/venmo-icon.jpg';
+import venmoIcon from '../images/venmo-icon.png';
 
 function Booking() {
     return (
