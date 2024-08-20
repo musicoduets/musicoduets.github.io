@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import github from "../images/github.png";
 import "../styles/home.css";
 import Contact from "./Contact";
@@ -6,6 +8,10 @@ import Services from "./Services";
 import Booking from "./Booking";
 
 function Home() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
+
     return (
         <div className="home">
             <section id="home" data-color="">
@@ -13,7 +19,7 @@ function Home() {
                     Welcome to musico
                 </h1>
             </section>
-            <section id="about" data-color="white">
+            <section id="about" data-color="white" data-aos="fade-up">
                 <h2>
                     About Us
                 </h2>
@@ -21,16 +27,16 @@ function Home() {
                     lalalala
                 </p>
             </section>
-            <section id="services" data-color="#faf0e6">
+            <section id="services" data-color="#faf0e6" data-aos="fade-up">
                 <h2>
                     Services
                 </h2>
                 <Services />
             </section>
-            <section id="booking" data-color="white">
+            <section id="booking" data-color="white" data-aos="fade-up">
                 <Booking />
             </section>
-            <section id="contact" data-color="#faf0e6">
+            <section id="contact" data-color="#faf0e6" data-aos="fade-up">
                 <Contact />
             </section>
             <footer>
