@@ -17,7 +17,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     position: relative;
-    transition: flex-grow 0.5s ease, flex-basis 0.5s ease;
+    transition: flex-grow 1s ease, flex-basis 0.5s ease;
     overflow: hidden;
 }
 

@@ -6,6 +6,7 @@ import "../styles/home.css";
 import Contact from "./Contact";
 import Services from "./Services";
 import Booking from "./Booking";
+import About from "./About";
 
 function Home() {
     useEffect(() => {
@@ -20,12 +21,7 @@ function Home() {
                 </h1>
             </section>
             <section id="about" data-color="white" data-aos="fade-up">
-                <h2>
-                    About Us
-                </h2>
-                <p>
-                    lalalala
-                </p>
+                <About />
             </section>
             <section id="services" data-color="#faf0e6" data-aos="fade-up">
                 <h2>
