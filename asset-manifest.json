@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3e39c16.css",
+    "main.js": "/static/js/main.b6ca52d1.js",
+    "static/js/453.56d5c8f3.chunk.js": "/static/js/453.56d5c8f3.chunk.js",
+    "static/media/aimee.JPEG": "/static/media/aimee.515aa0e057fadefb02a6.JPEG",
+    "static/media/background.webp": "/static/media/background.966538464712117bd907.webp",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.7e687123cd4528224ce5.ttf",
+    "static/media/flower4.webp": "/static/media/flower4.401aeb8432d0ace29b0c.webp",
+    "static/media/check-icon.jpg": "/static/media/check-icon.7f0dd3b22e538030496e.jpg",
+    "static/media/flower1.jpg": "/static/media/flower1.ce795a4483bcb80d0a3f.jpg",
+    "static/media/flower2.jpg": "/static/media/flower2.fa059f0cf357f4c07050.jpg",
+    "static/media/flower3.avif": "/static/media/flower3.b6e3cbf1bcd130871a9d.avif",
+    "static/media/venmo-icon.png": "/static/media/venmo-icon.8e3a6ca6e8f8c44073d1.png",
+    "static/media/cash-icon.jpg": "/static/media/cash-icon.48bdb129392489a80518.jpg",
+    "index.html": "/index.html",
+    "main.f3e39c16.css.map": "/static/css/main.f3e39c16.css.map",
+    "main.b6ca52d1.js.map": "/static/js/main.b6ca52d1.js.map",
+    "453.56d5c8f3.chunk.js.map": "/static/js/453.56d5c8f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3e39c16.css",
+    "static/js/main.b6ca52d1.js"
+  ]
+}
